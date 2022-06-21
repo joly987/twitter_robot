@@ -19,8 +19,11 @@ A list of technologies used within the project:
 
 ### Installation
 ***
+```
 $git clone https://github.com/joly987/twitter_robot.git
-$Pip : get the script. Download to your desk. Execute it.
+$ cd ./twitter_bot
+```
+*Pip : get the script. Download to your desk. Execute it.
 
 Now with Pip, you can install all neccesarry library to run the app twitter_robot.
 
