@@ -1,7 +1,7 @@
 from PyDictionary import PyDictionary
 dictionary=PyDictionary()
 
-word = "love"
+word = "faith"
 definition = dictionary.meaning(word)
 
-print (definition["Noun"])
+print (word + ": " + definition["Noun"][0])
