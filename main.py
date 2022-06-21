@@ -1,7 +1,8 @@
-from PyDictionary import PyDictionary
-dictionary=PyDictionary()
 
-word = "faith"
-definition = dictionary.meaning(word)
+from random_words import RandomWords
 
-print (word + ": " + definition["Noun"][0])
+rw = RandomWords()
+
+word = rw.random_word()
+
+print(word)
